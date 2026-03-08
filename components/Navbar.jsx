@@ -118,7 +118,7 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <Link>
+              <Link href="/contact">
               <Button className="bg-primary text-white rounded-sm mt-2">
                 Book Appointment
               </Button>

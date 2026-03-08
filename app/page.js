@@ -143,9 +143,11 @@ export default function Home() {
               </p>
 
               <div className="flex items-center gap-4">
+                <Link href="/contact">
                 <Button className="bg-primary hover:bg-primary/90 text-white rounded-sm px-8 py-6 text-sm tracking-wide">
                   Book Appointment
                 </Button>
+                </Link>
                 <Link
                   href="/services"
                   className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-primary transition-colors"

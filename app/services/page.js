@@ -200,10 +200,7 @@ export default function ServicesPage() {
 </section>
 <FadeUp>
       <BookingCTA />
-
 </FadeUp>
-
-
     </div>
   );
 }

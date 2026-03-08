@@ -100,7 +100,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/40">
           <p>2025 PureSmile Dental. All rights reserved.</p>
-          <p>Designed with care for your smile.</p>
+          <p>Designed with care for your smile. Nazam Shiraz @NS Studios</p>
         </div>
 
       </div>

@@ -76,9 +76,11 @@ export default function Navbar() {
               <Phone size={14} />
               <span>+91 99999 99999</span>
             </a>
+            <Link href="/contact">
             <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-sm px-5">
               Book Appointment
             </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -116,9 +118,11 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              <Link>
               <Button className="bg-primary text-white rounded-sm mt-2">
                 Book Appointment
               </Button>
+              </Link>
             </nav>
           </motion.div>
         )}
